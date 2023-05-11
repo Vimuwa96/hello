@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+.head {
+  text-transform: uppercase;
+}
+
+.tag {
+  text-decoration: none;
+  color: #6e6b6b;
+  transition: 0.5s;
+}
+
+.tag :hover {
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  padding-right: 25px;
+  transition: 0.5s;
+}
+
+.hello .form-control:focus {
+  border-color: #0e0f0f;
+  box-shadow: none;
+}
+
+.hello .form-select:focus {
+  border-color: #0e0f0f;
+  box-shadow: none;
+}
+
+table th {
+  font-weight: 500;
+}
+
+.approved {
+  background-color: green;
+  padding: 2px 8px 2px 8px;
+  color: white;
+  border-radius: 5px;
+  font-size: smaller;
+}
+
+.notify {
+  background-color: rgb(241, 16, 16);
+  padding: 2px 8px 2px 8px;
+  color: white;
+  border-radius: 50%;
+  font-size: smaller;
+}
+
+.pending {
+  background-color: rgb(224, 192, 49);
+  padding: 2px 8px 2px 8px;
+  color: rgb(248, 243, 243);
+  border-radius: 5px;
+  font-size: smaller;
+}
+
+.pending1 {
+  background-color: rgb(102, 103, 107);
+  padding: 2px 8px 2px 8px;
+  color: rgb(248, 243, 243);
+  border-radius: 5px;
+  font-size: smaller;
+}
+
+.reject {
+  background-color: rgb(255, 5, 5);
+  padding: 2px 8px 2px 8px;
+  color: rgb(248, 243, 243);
+  border-radius: 5px;
+  font-size: smaller;
+}
